@@ -1,0 +1,94 @@
+{
+  "proyectos": [
+    {
+      "id": 1,
+      "nombre": "Proyecto 1",
+      "descripcion": "Los mas lindos del mundo ",
+      "estado": "Completado"
+    },
+    {
+      "id": 2,
+      "nombre": "Prueba de cambio",
+      "descripcion": "Proyecto cambiado",
+      "estado": "Incompleto"
+    },
+    {
+      "id": 3,
+      "nombre": "Proyecto 3",
+      "descripcion": "El mejor proyecto mundo mundia",
+      "estado": "Activo"
+    },
+    {
+      "id": 4,
+      "nombre": "Proyecto 6",
+      "descripcion": "Proyecto Prueba",
+      "estado": "Activo"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Cris Canteros",
+      "email": "canterooon@gmail.com",
+      "roll": "administrador",
+      "estado": "Activo"
+    },
+   {      "id": 3,
+      "nombre": "Alvarez Nazareno",
+      "email": "nazytayutu@gmail.com",
+      "roll": "desarrollador",
+      "estado": "inactivo"
+    },
+    {
+      "id": 4,
+      "nombre": "Nuevo usuario",
+      "descripcion": "Proyecto cambiado",
+      "estado": "Incompleto",
+      "email": "nuevousuario@gmail.com"
+    }
+  ],
+  "tareas": [
+    {
+      "nroTarea": 1,
+      "nombre": "Investigar requisitos",
+      "descripcion": "Reunir requisitos del cliente para el nuevo proyecto",
+      "proyectoId": 1,
+      "estado": "Completada"
+    },
+    {
+      "nroTarea": 2,
+      "nombre": "Diseñar prototipo",
+      "descripcion": "Crear un prototipo de la aplicación",
+      "proyectoId": 2,
+      "estado": "Completada"
+    },
+    {
+      "nroTarea": 3,
+      "nombre": "Diseñar prototipo",
+      "descripcion": "Diseñar formulario pornhub",
+      "proyectoId": 3,
+      "estado": "Completado"
+    },
+    {
+      "nroTarea": 1,
+      "nombre": "Investigar requisitos",
+      "descripcion": "Reunir requisitos del cliente para el nuevo proyecto",
+      "proyectoId": 1,
+      "estado": "Completada"
+    }
+  ],
+  "administradores": [
+    {
+      "nroAdministrador": 1,
+      "nombre": "Carlos Admin",
+      "email": "carlos.admin@example.com",
+      "estado": "Activo"
+    },
+    {
+      "nroAdministrador": 2,
+      "nombre": "Laura Admin",
+      "email": "laura.admin@example.com",
+      "estado": "Activo"
+    }
+  ]
+}
